@@ -255,6 +255,19 @@
         "M",
         "L"
       ]
+    },
+    {
+      "id": "19",
+      "name": "Atkinsons",
+      "price": 98.99,
+      "image": "clothline/Perfumes/pexels-valeria-boltneva-1961795.jpg",
+      "description": "Woody chypre fragrance with top notes of cardamon,sage and broom.",
+      "category": "perfumes",
+      "size": [
+        "250ml",
+        "500ml",
+        "750ml"
+      ]
     }
     
       ]
