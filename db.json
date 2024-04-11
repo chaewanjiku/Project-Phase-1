@@ -307,6 +307,19 @@
         "M",
         "L"
       ]
+    },
+    {
+      "id": "23",
+      "name": "Byredo parfum",
+      "price": 32.99,
+      "image": "clothline/Perfume/pexels-františek-čaník-13956929.jpg",
+      "description": "Fresh,floral,warm musk,exotic spices and woody notes.",
+      "category": "perfumes",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ]
     }
     
       ]
