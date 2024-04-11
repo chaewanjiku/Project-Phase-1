@@ -1,0 +1,236 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Adidas Kicks",
+      "price": 24.99,
+      "image": "clothline/Mens shoes/pexels-jonathan-pagaoa-7501135.jpg",
+      "description": "Adidas Black NMD R1.",
+      "category": "men",
+      "size": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Nike Sock Dart",
+      "price": 29.99,
+      "image": "clothline/Mens shoes/pexels-ray-piedra-1456738.jpg",
+      "description": "Nike Sock Dart green KJCRD .",
+      "category": "men",
+      "size": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Nike Air Jordan",
+      "price": 34.99,
+      "image": "clothline/Mens shoes/pexels-hamza-nouasria-12725052.jpg",
+      "description": "Air jordan 1 Low.",
+      "category": "men",
+      "size": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    {
+      "id": "4",
+      "name": " Black T-shirt",
+      "price": 24.99,
+      "image": "clothline/Tshirts/pexels-anna-nekrashevich-8532616.jpg",
+      "description": "Black Zara T-shirt.",
+      "category": "men",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Heels",
+      "price": 30.99,
+      "image": "clothline/Womens shoes/pexels-luis-quintero-2044228 (1).jpg",
+      "description": "Black shein patent leather luxury heels .",
+      "category": "women",
+      "size": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Pole dance heels",
+      "price": 30.99,
+      "image": "clothline/Womens shoes/pexels-vika-glitter-13229861.jpg",
+      "description": "Deep Tribal & Sexy Heels.",
+      "category": "women",
+      "size": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Burgundy High Heels",
+      "price": 30.99,
+      "image": "clothline/Womens shoes/pexels-castorly-stock-3682293.jpg",
+      "description":"Red Block Heels",
+      "category": "women",
+      "size": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Woodstock Sandals",
+      "price": 30.99,
+      "image": "clothline/Womens shoes/pexels-mike-bird-112285.jpg",
+      "description": "Beach Sandals",
+      "category": "women",
+      "size": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Maison De Parfumo",
+      "price": 50.99,
+      "image": "clothline/Perfume/pexels-valeria-boltneva-965731.jpg",
+      "description": "Warm,Spicy,Comforting.",
+      "category": "perfumes",
+      "size": [
+        "750ml",
+        "250ml",
+        "500ml"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Escada",
+      "price": 55.99,
+      "image": "clothline/Perfume/pexels-valeria-boltneva-724635.jpg",
+      "description": "Floral-fruity opening with wild rose and pear with a base of musk.",
+      "category": "perfumes",
+      "size": [
+        "750ml",
+        "250ml",
+        "500ml"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Bella Vita View ",
+      "price": 45.99,
+      "image": "clothline/Perfume/pexels-pixabay-258244.jpg",
+      "description": "Has hint of pineapple with bergamot note which subtle.",
+      "category": "perfumes",
+      "size": [
+        "750ml",
+        "250ml",
+        "500ml"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Chanel No.5 Eay Priemiere",
+      "price": 48.99,
+      "image": "clothline/Perfume/pexels-jess-bailey-designs-755992.jpg",
+      "description": "A floral bouquet with bright citrus top notes,aldehydes and button vanilla.",
+      "category": "perfumes",
+      "size": [
+        "750ml",
+        "250ml",
+        "500ml"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Fordite",
+      "price": 30.99,
+      "image": "clothline/Jewellery/pexels-vvs-™-12217206.jpg",
+      "description": "Solid with spiga chain.",
+      "category": "jewellery",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Emarld chain",
+      "price": 20.99,
+      "image": "clothline/Jewellery/pexels-engin-akyurt-1458867.jpg",
+      "description": "Loose Gemstone",
+      "category": "jewellery",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Sterling Necklace",
+      "price": 25.99,
+      "image": "clothline/Jewellery/pexels-castorly-stock-3641059.jpg",
+      "description": "Premium Silver Finishing with Nickel and Tin Free",
+      "category": "jewellery",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Halo Studs",
+      "price": 28.99,
+      "image": "clothline/Jewellery/pexels-george-chambers-16904065.jpg",
+      "description": "Enhanced green with white diamond.",
+      "category": "jewellery",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ]
+    }
+    
+  
+  ]
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ecommerce Website</title>
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+          <nav>
+                <div class="logo">
+                 <img src="clothline/logo.png" alt="business logo" id="logo" />
+                 </div>
+                 <ul class="list">
+                    <li><a href="#home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Products</a>
+                        <div class="dropdown-content">
+                            <a href="#mens">Men's</a>
+                            <a href="#womens">Women's</a>
+                            <a href="#jewellery">Jewellery</a>
+                            <a href="#perfumes">Perfume</a>
+                        </div>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                <div class="cart">
+                    <i class="fa fa-shopping-cart fa-2xl" aria-hidden="true" style="color: black;"></i>
+                    <!-- <p id="count">0</p> -->
+                </div>
+            </nav>
+            </header>
+            </section>
+            <div class="my-photos">
+                <img src="clothline/pexels-rachel-claire-5531709.jpg" class ="shape" />
+                <div class="overlay">
+                    <h2>Best collection with fashion by Chae</h2>
+                    <p>Discover your style at our one-stop fashion destination!<br /><br >Explore a curated collection of trendy clothes, stylish shoes, exquisite jewelry, and captivating perfumes.<br /><br /> Elevate your wardrobe with our high-quality products, exceptional customer service, and seamless shopping experience. Shop now and unleash your unique fashion statement.</p>
+                </div>
+            </div>
+            <button id="addProductBtn" class="btn">Add Product</button>
+            <section id="products">
+                <div id="mens" class="products-section">
+                    <h2 class="men">Men's Products</h2>
+                    <div class="slider" id="mens-slider"></div>
+                </div>
+                
+                <div id="womens" class="products-section">
+                    <h2 class="women">Women's Products</h2>
+                    <div class="slider" id="womens-slider"></div>
+                </div>
+    
+                <div id="perfumes" class="products-section">
+                    <h2 class="women">Perfumes Products</h2>
+                    <div class="slider" id="perfumes-slider"></div>
+                </div>
+                <div id="jewellery" class="products-section">
+                    <h2 class="jewellery">Jewellery Products</h2>
+                    <div class="slider" id="jewellery-slider"></div>
+                </div>
+            </section>           
+            <section id="about">
+                <section class="Container">
+                    <div id="About Us" class="About-section">
+                        <h2 id="about_me">About</h2>
+                        <p>Welcome to Fashions By Chae, where style meets luxury! We are your one-stop destination for the finest selection of shoes, clothes, jewelry, and perfume.</br></br>
+    
+                            At our store, we believe that fashion is more than just clothing; it's a statement of individuality and expression. That's why we curate a diverse range of products to cater to every style and occasion.</br></br>
+                            
+                            Our shoe collection combines comfort and elegance, offering a variety of designs from casual sneakers to sophisticated heels, ensuring you step out in style wherever you go.</br></br>
+                            
+                            Discover our carefully curated clothing line, featuring trendy and timeless pieces that effortlessly blend comfort and fashion. From everyday essentials to statement pieces, we have something for every wardrobe.</br></br>
+                            
+                            Elevate your look with our exquisite jewelry selection, crafted with precision and attention to detail. Whether you prefer classic elegance or contemporary flair, our jewelry pieces add a touch of sophistication to any outfit.</br></br>
+                            
+                            Indulge in luxury with our exclusive range of perfumes, each scent carefully selected to captivate your senses and leave a lasting impression.</br></br>
+                            
+                            Experience the ultimate shopping experience with us, where quality, style, and customer satisfaction are our top priorities. Join us on a journey of fashion and elegance, and let us help you make every moment unforgettable.</p>
+                    </div>
+                </section>
+            </section>
+            <section id="contact" class="container">
+                <h2>Contact</h2>
+                <p>You can reach me via:</p>
+                  <ul>
+                   <li>Email: fashionsbychae@gmail.com</li>
+                   <li>Location:Muthangari Drive,King's House,Floor NO.507</li>
+                   <li>Phone: +254768194783</li>
+                   <li>LinkedIn: <a href="https://www.linkedin.com/in/charity-wanjiku-835b96217/" target="_blank">Your Profile</a></li>
+                  </ul>
+                <div class="button-container">
+                    <a href="mailto:charitywanjiku8245@gmail.com" class="button">Email Me</a>
+                    <a href="tel:+254768194783" class="button">Call Me</a>
+                    <a href="https://www.linkedin.com/in/charity-wanjiku-835b96217/" target="_blank" class="button">LinkedIn</a>
+                </div>
+            </section>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <form id="addProductForm">
+                    <label for="productName">Product Name:</label>
+                    <input type="text" id="productName" name="productName" required><br>
+                    <label for="productPrice">Product Price:</label>
+                    <input type="number" id="productPrice" name="productPrice" step="0.01" required><br>
+                    <label for="productImage">Product Image URL:</label>
+                    <input type="url" id="productImage" name="productImage" required><br>
+                    <label for="productDescription">Product Description:</label>
+                    <textarea id="productDescription" name="productDescription" required></textarea><br>
+                    <label for="productCategory">Product Category:</label>
+                    <select id="productCategory" name="productCategory" required>
+                      <option value="men">Men's</option>
+                      <option value="women">Women's</option>
+                      <option value="jewellery">Jewellery</option>
+                      <option value="perfumes">Perfume</option>
+                    </select><br>
+                    <button type="submit">Add Product</button>
+                  </form>
+                </div>
+            </div>
+<script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,382 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    min-height: 100vh;
+    max-height: 50vh;
+    
+}
+
+.my-photos img{
+    display: flex;
+    height: 120vh;
+    width: 2025px;
+    justify-content:center;
+}
+.cart{
+    display: flex;
+    background-color: white;
+    justify-content:center;
+    align-items:center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width:100px;
+}
+.fa-solid{
+    color:goldenrod;
+}
+.cart p{
+    height:22px;
+    width:22px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background-color: goldenrod;
+    color:white;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    max-width: 3000px;
+    background-color: black;
+
+}
+#logo{
+    width: 180px;
+    height: 100px;
+}
+
+
+nav ul{
+    display:flex;
+    gap:150px;
+    justify-content:right;
+    font-size:large;
+    list-style: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    text-decoration: none;
+    margin : 0 10px;
+    padding: 10px 20px;
+    transition:background-color 0.3 ease;
+
+}
+ul li a{
+    color:white;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* max-width: 1200px; */
+    margin: 0 auto; 
+}
+
+  .overlay {
+    position:absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .list li a {
+    text-decoration: none;
+    margin-top: 2px;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+
+  img {
+    display:block;
+    max-width: 100%;
+    height:auto;
+    z-index: 0;
+  }
+  .product-cards {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 10px;
+    width: calc(100% / 3 - 20px); 
+    max-width: 300px; 
+    display: inline-block;
+    flex: 1 1 30%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    padding: 20px; 
+}
+
+.product-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-title {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff; 
+}
+
+.product-description {
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3; 
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#mens{
+    margin-left: 20px;
+}
+
+
+#womens {
+    margin-left: 20px;
+}
+
+#perfume{
+    margin-left: 20px;
+}
+#Jewellery{
+    margin-left: 20px;
+}
+#about{
+    /* font-weight: bold; */
+    text-align: center;
+    font-family:'https://fonts.google.com/specimen/Playfair+Display' ;
+}
+#contact {
+    margin-top: 50px;
+  }
+  
+#contact h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+#contact p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+#contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+#contact ul li {
+    margin-bottom: 5px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+  .button:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: red; 
+    color: white; 
+    border: none; 
+    padding: 5px 0;
+    margin-top: 15px;
+    margin-left: 10px; 
+    border-radius: 4px;
+    position: absolute; 
+    /* top: 5px;  */
+    /* right: 5px;  */
+    cursor: pointer; 
+}
+
+.update-btn {
+    /* background-color: black; */
+    /* color: white;  */
+    margin-right: 10px;
+    border: none; 
+    width: 50px;
+    cursor: pointer;
+
+}
+
+.men{
+    text-align: center;
+}
+
+.women{
+    text-align: center;
+}
+.jewellery{
+    text-align: center;
+}
+
+.perfume{
+    text-align: center;
+}
+
+#addProductBtn{
+    border-color: none !important;
+}
+
+/* Style the modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Style the modal content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+/* Style the close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Style the form elements */
+#addProductForm {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="url"],
+textarea,
+select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.mens{
+    text-align: center;
+}
