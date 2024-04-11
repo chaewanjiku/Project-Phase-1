@@ -294,6 +294,19 @@
         "500ml",
         "750ml"
       ]
+    },
+    {
+      "id": "22",
+      "name": "Pearl Necklace",
+      "price": 32.99,
+      "image": "clothline/Jewellery/pexels-jose-ricardo-barraza-morachis-1454171.jpg",
+      "description": "Smooth,round beaded bead containing mollusks.",
+      "category": "jewellery",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ]
     }
     
       ]
