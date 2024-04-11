@@ -220,7 +220,7 @@
     {
       "id": "16",
       "name": "Halo Studs",
-      "price": 28.99,
+      "price": 24.99,
       "image": "clothline/Jewellery/pexels-george-chambers-16904065.jpg",
       "description": "Enhanced green with white diamond.",
       "category": "jewellery",
@@ -229,8 +229,36 @@
         "M",
         "L"
       ]
+    },
+    {
+      "id": "17",
+      "name": "Solitaire Ring",
+      "price": 28.99,
+      "image": "clothline/Jewellery/pexels-leah-newhouse-691046.jpg",
+      "description": "Enhanced green with white diamond.",
+      "category": "jewellery",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Crown",
+      "price": 32.99,
+      "image": "clothline/Jewellery/pexels-rūdolfs-klintsons-7127245.jpg",
+      "description": "Tiara  High End Rhinestone.",
+      "category": "jewellery",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ]
+    }
+    
+      ]
     }
     
   
-  ]
-}
+  
