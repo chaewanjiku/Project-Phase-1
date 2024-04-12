@@ -16,7 +16,7 @@ This project is an ecommerce website designed to provide a seamless shopping exp
     *Notifications: The website shows notifications when a product is successfully added to the cart.
     *Cart Count: The website keeps track of the number of products in the cart, providing users with a convenient way to monitor their selections.
 
-npx json-server --watch db.json routes.json --port 9000
+Use npx json-server --watch db.json routes.json --port 9000
 Always make sure your backend json server is always up by running the above command on your project directory terminal and by default a port number is always specified which is port --3000 but you can specify your port as in my command by using port --9000.
 
 ## Installation
