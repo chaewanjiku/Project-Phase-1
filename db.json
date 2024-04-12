@@ -33,15 +33,17 @@
       ]
     },
     {
+      "id": "3",
       "name": "Nike Air Jordan",
       "price": 34.99,
       "image": "clothline/Mens shoes/pexels-hamza-nouasria-12725052.jpg",
       "description": "Air jordan 1 Low.",
       "category": "men",
       "size": [
-        "38"
-      ],
-      "id": "3"
+        "38",
+        "39",
+        "40"
+      ]
     },
     {
       "id": "4",
@@ -311,10 +313,40 @@
       "description": "Fresh,floral,warm musk,exotic spices and woody notes.",
       "category": "perfumes",
       "size": [
+        "250ml",
+        "500ml",
+        "750ml"
+      ]
+    },
+    {
+      "id": "24",
+      "name": " T-shirt",
+      "price": 24.99,
+      "image": "clothline/Tshirts/ainur-iman-LnENRJQarHQ-unsplash.jpg",
+      "description": " Malu T-shirt.",
+      "category": "men",
+      "size": [
         "S",
         "M",
-        "L"
+        "L",
+        "XL"
       ]
+    },{
+      "id": "25",
+      "name": " Northface Sandals",
+      "price": 26.99,
+      "image": "clothline/Mens shoes/pexels-terrance-barksdale-13696790 (copy).jpg",
+      "description": "Slides.",
+      "category": "men",
+      "size": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ]
+      
     }
   ]
 }
