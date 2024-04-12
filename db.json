@@ -331,7 +331,8 @@
         "L",
         "XL"
       ]
-    },{
+    },
+    {
       "id": "25",
       "name": " Northface Sandals",
       "price": 26.99,
@@ -345,8 +346,25 @@
         "43",
         "44",
         "45"
-      ]
-      
+      ]     
+    },
+    {
+      "id": "26",
+      "name": " Derby brogue shoes",
+      "price": 26.99,
+      "image": "clothline/Mens shoes/pexels-tima-miroshnichenko-6765524.jpg",
+      "description": "Formal shoes.",
+      "category": "men",
+      "size": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ]     
     }
-  ]
-}
+   
+      ]     
+    }
+  
