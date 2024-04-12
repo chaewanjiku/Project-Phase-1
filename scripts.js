@@ -227,43 +227,50 @@ function createProductCard(product) {
     }
 
 // Add event listener to the "Update Product" form
-document.getElementById("updateProductForm").addEventListener("submit", function(event) {
-    event.preventDefault(); 
+    var updateModal = document.getElementById("updateModal");
+    var updateCloseBtn = updateModal.querySelector(".close");
 
-    var formData = new FormData(this);
-    var updatedProduct = {
-        name: formData.get('updateProductName'),
-        price: parseFloat(formData.get('updateProductPrice')),
-        image: formData.get('updateProductImage'), // Include the image URL
-        description: formData.get('updateProductDescription'),
-        category: formData.get('updateProductCategory'),
-        size: [formData.get('updateProductSize')]
-    };
-
-    var productId = formData.get('productId'); 
-    console.log(productId); 
-
-    fetch(`http://localhost:9000/products/${productId}`, {
-        method: 'PUT',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(updatedProduct)
-    })
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Failed to update product');
-        }
-        return response.json();
-    })
-    .then(data => {
-        console.log('Product updated:', data);
+    updateCloseBtn.addEventListener("click", function() {
         updateModal.style.display = "none";
-    })
-    .catch(error => {
-        console.error('Error updating product:', error);
     });
-});
+
+    document.getElementById("updateProductForm").addEventListener("submit", function(event) {
+        event.preventDefault(); 
+
+        var formData = new FormData(this);
+        var updatedProduct = {
+            name: formData.get('updateProductName'),
+            price: parseFloat(formData.get('updateProductPrice')),
+            image: formData.get('updateProductImage'), // Include the image URL
+            description: formData.get('updateProductDescription'),
+            category: formData.get('updateProductCategory'),
+            size: [formData.get('updateProductSize')]
+        };
+
+        var productId = formData.get('productId'); 
+        console.log(productId); 
+
+        fetch(`http://localhost:9000/products/${productId}`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(updatedProduct)
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to update product');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Product updated:', data);
+            updateModal.style.display = "none";
+        })
+        .catch(error => {
+            console.error('Error updating product:', error);
+        });
+    });
 
 // Function to show notification and update count
 function showNotification(productName) {
