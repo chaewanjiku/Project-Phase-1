@@ -5,7 +5,7 @@
 #### By *CHARITY WANJIKU GACHUGI*
 
 ## Description
-Ecommerce Website
+E-commerce Website
 
 This project is an ecommerce website designed to provide a seamless shopping experience for users looking to purchase a variety of products including clothing, shoes, jewelry, and perfumes. The website offers the following key features:
 
