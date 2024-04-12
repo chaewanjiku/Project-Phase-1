@@ -60,20 +60,15 @@
       ]
     },
     {
-      "id": "5",
       "name": "Black stiletto heels",
       "price": 30.99,
       "image": "clothline/Womens shoes/pexels-luis-quintero-2044228.jpg",
       "description": "Black shein patent leather luxury heels .",
       "category": "women",
       "size": [
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43"
-      ]
+        "40"
+      ],
+      "id": "5"
     },
     {
       "id": "6",
@@ -189,17 +184,15 @@
       ]
     },
     {
-      "id": "14",
       "name": "Emarld chain",
       "price": 20.99,
       "image": "clothline/Jewellery/pexels-engin-akyurt-1458867.jpg",
       "description": "Loose Gemstone",
       "category": "jewellery",
       "size": [
-        "S",
-        "M",
-        "L"
-      ]
+        "M"
+      ],
+      "id": "14"
     },
     {
       "id": "15",
@@ -333,20 +326,15 @@
       ]
     },
     {
-      "id": "25",
       "name": " Northface Sandals",
       "price": 26.99,
       "image": "clothline/Mens shoes/pexels-terrance-barksdale-13696790 (copy).jpg",
       "description": "Slides.",
       "category": "men",
       "size": [
-        "40",
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ]     
+        "40"
+      ],
+      "id": "25"
     },
     {
       "id": "26",
@@ -362,7 +350,7 @@
         "43",
         "44",
         "45"
-      ]     
+      ]
     },
     {
       "id": "27",
@@ -378,9 +366,8 @@
         "43",
         "44",
         "45"
-      ]  
+      ]
+    }
     
-    }
-      ]     
-    }
-  
+  ]
+}

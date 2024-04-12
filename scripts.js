@@ -68,7 +68,8 @@ function createProductCard(product) {
     // Size dropdown
     const sizeDropdown = document.createElement('select');
     sizeDropdown.classList.add('product-size-dropdown');
-    product.size.forEach(size => {
+    const sizes = product.size || [];
+    sizes.forEach(size => {
         const option = document.createElement('option');
         option.value = size;
         option.textContent = size;
@@ -90,6 +91,9 @@ function createProductCard(product) {
     addToCartBtn.textContent = 'Add to Cart';
     addToCartBtn.classList.add('btn');
     productCard.appendChild(addToCartBtn);
+
+    const selectedSize = sizeDropdown.value;
+    product.size = [selectedSize];
 
     const deleteBtn = document.createElement('button');
     deleteBtn.textContent = 'Delete';
@@ -179,11 +183,12 @@ function createProductCard(product) {
         var formData = new FormData(this);
     
         var newProduct = {
-        name: formData.get('productName'),
-        price: parseFloat(formData.get('productPrice')),
-        image: formData.get('productImage'),
-        description: formData.get('productDescription'),
-        category: formData.get('productCategory')
+            name: formData.get('productName'),
+            price: parseInt(formData.get('productPrice')),
+            image: formData.get('productImage'),
+            description: formData.get('productDescription'),
+            category: formData.get('productCategory'),
+            size: [formData.get('productSize')] 
         };
     
         fetch('http://localhost:9000/products', {
@@ -288,5 +293,5 @@ function showNotification(productName) {
 
 // Add event listener to the "Add to Cart" button
 addToCartBtn.addEventListener('click', () => {
-    showNotification(product.name);
+     showNotification(product.name);
 });
