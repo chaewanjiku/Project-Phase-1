@@ -292,6 +292,9 @@ function showNotification(productName) {
 }
 
 // Add event listener to the "Add to Cart" button
-addToCartBtn.addEventListener('click', () => {
+const addToCartBtn = document.getElementById('addToCartBtn');
+if (addToCartBtn) {
+    addToCartBtn.addEventListener('click', () => {
      showNotification(product.name);
 });
+}
