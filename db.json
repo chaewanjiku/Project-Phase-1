@@ -33,20 +33,15 @@
       ]
     },
     {
-      "id": "3",
       "name": "Nike Air Jordan",
       "price": 34.99,
       "image": "clothline/Mens shoes/pexels-hamza-nouasria-12725052.jpg",
       "description": "Air jordan 1 Low.",
       "category": "men",
       "size": [
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43"
-      ]
+        "38"
+      ],
+      "id": "3"
     },
     {
       "id": "4",
@@ -99,7 +94,7 @@
       "name": "Burgundy High Heels",
       "price": 30.99,
       "image": "clothline/Womens shoes/pexels-castorly-stock-3682293.jpg",
-      "description":"Red Block Heels",
+      "description": "Red Block Heels",
       "category": "women",
       "size": [
         "38",
@@ -321,12 +316,5 @@
         "L"
       ]
     }
-    
-      ]
-    }
-    
-      
-  
-    
-  
-  
+  ]
+}

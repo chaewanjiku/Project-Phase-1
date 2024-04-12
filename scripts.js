@@ -210,6 +210,10 @@ function createProductCard(product) {
         document.getElementById('updateProductCategory').value = product.category;
         document.getElementById('productId').value = product.id;
     
+        const imageInput = document.getElementById('updateProductImage');
+        imageInput.value = product.image;
+        imageInput.setAttribute('readonly', true); 
+    
         const sizeDropdown = document.getElementById('updateProductSize');
         sizeDropdown.innerHTML = ''; 
         product.size.forEach(size => {
@@ -230,9 +234,10 @@ document.getElementById("updateProductForm").addEventListener("submit", function
     var updatedProduct = {
         name: formData.get('updateProductName'),
         price: parseFloat(formData.get('updateProductPrice')),
+        image: formData.get('updateProductImage'), // Include the image URL
         description: formData.get('updateProductDescription'),
         category: formData.get('updateProductCategory'),
-        size: [formData.get('updateProductSize')] 
+        size: [formData.get('updateProductSize')]
     };
 
     var productId = formData.get('productId'); 
