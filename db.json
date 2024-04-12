@@ -363,8 +363,24 @@
         "44",
         "45"
       ]     
+    },
+    {
+      "id": "27",
+      "name": " Nike sports",
+      "price": 26.99,
+      "image": "clothline/Mens shoes/pexels-melvin-buezo-2529148.jpg",
+      "description": "Sports:Basketball.",
+      "category": "men",
+      "size": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ]  
+    
     }
-   
       ]     
     }
   
